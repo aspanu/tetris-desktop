@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "dotnet-sdk@latest": {
+      "last_modified": "2024-07-14T11:03:58Z",
+      "resolved": "github:NixOS/nixpkgs/aa247c0c90ecf4ae7a032c54fdc21b91ca274062#dotnet-sdk",
+      "source": "devbox-search",
+      "version": "6.0.424",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kqz195xsy7xpc7mkj2gqbl7fbigba8kr-dotnet-sdk-6.0.424",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kqz195xsy7xpc7mkj2gqbl7fbigba8kr-dotnet-sdk-6.0.424"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dhs0102daj25z9a0wpyv5gky0jpd6ddh-dotnet-sdk-6.0.424",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dhs0102daj25z9a0wpyv5gky0jpd6ddh-dotnet-sdk-6.0.424"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/khkipa1k8n8lra2q4lmj102njqk4k98r-dotnet-sdk-6.0.424",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/khkipa1k8n8lra2q4lmj102njqk4k98r-dotnet-sdk-6.0.424"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g6i9n5wjqxhpz96w9spimp3ciigr7zx6-dotnet-sdk-6.0.424",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g6i9n5wjqxhpz96w9spimp3ciigr7zx6-dotnet-sdk-6.0.424"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-generated files
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Add folders created by common tools
+.vscode/
+.vscode-test/
+
+# Add files created by popular extensions
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by popular tools like Gulp
+node_modules/
+
+# Files built by the MAUI build process
+bin/
+obj/
+
+# Avoid ignoring files in the /public directory
+!public/
+
+# Avoid ignoring files in the /assets directory
+!assets/
+
+# Include any files in the /resources directory
+!resources/
+
+# Include any images in the /images directory
+!images/
+
+# Include any fonts in the /fonts directory
+!fonts/
+
+# Exclude temporary files
+*.tmp
+
+# Exclude logs and build directories
+*.log
+*.bak
+
+# Visual Studio Code specific files
+.vscode/*
+.history/*
+.ionide/*
+.idea/*
+vs/
+.vscode/
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+
+# NCrunch
+.ncrunch*
+*.[Nn]Crunch.*
+
+# Miscellaneous
+[Tt]humbs.db
+[Dd]esktop.ini
+.vscode/*
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Windows image file caches
+*.stackdump
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Custom
+**/appsettings.*.json
+.env
+
+# .NET MAUI specific
+[Mm]aui[Uu]se[Uu]i[Uu]i[Hh]andler
+.maui/
+App/Debug/
+App/Release/
+App/App_Resources/
+App/Platforms/
+App/Resources/
+App/Fonts/
+App/Images/
+App/Assets/
