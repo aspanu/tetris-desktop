@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TetrisDesktop"
+             x:Class="TetrisDesktop.TetrisPage"
+             Title="Tetris">
+       <Grid>
+              <!-- Define two columns: one for the game area and one for the sidebar -->
+              <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="*"/>
+                     <!-- Game area takes available space -->
+                     <ColumnDefinition Width="200"/>
+                     <!-- Sidebar width fixed -->
+              </Grid.ColumnDefinitions>
+
+              <!-- Tetris Game Area -->
+              <Grid x:Name="TetrisGrid"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Black"
+                    Grid.Column="0">
+                     <!-- Row and Column definitions will be added dynamically in code-behind -->
+                     <local:CustomEntry x:Name="customEntry"
+                                        IsVisible="False"/>
+              </Grid>
+
+              <!-- Sidebar -->
+              <StackLayout Grid.Column="1"
+                           Padding="10"
+                           Spacing="20"
+                           BackgroundColor="LightGray">
+                     <!-- Scoreboard -->
+                     <Label Text="Score: 0"
+                            x:Name="ScoreLabel"
+                            FontSize="Large"
+                            HorizontalOptions="Center"/>
+
+                     <!-- Hints -->
+                     <StackLayout>
+                            <Label Text="How to Play"
+                                   FontAttributes="Bold"
+                                   FontSize="Medium"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="Use arrow keys to move pieces."
+                                   FontSize="Small"/>
+                            <Label Text="Press up to rotate pieces."
+                                   FontSize="Small"/>
+                            <Label Text="Complete lines to score points."
+                                   FontSize="Small"/>
+                     </StackLayout>
+              </StackLayout>
+       </Grid>
+</ContentPage>

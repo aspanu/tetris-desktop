@@ -1,11 +1,15 @@
-﻿namespace TetrisDesktop;
+﻿using Microsoft.Maui.Controls;
+using Plugin.Maui.KeyListener;
 
-public partial class App : Application
+namespace TetrisDesktop
 {
-	public App()
+	public partial class App : Application
 	{
-		InitializeComponent();
+		public App()
+		{
+			InitializeComponent();
 
-		MainPage = new AppShell();
+			MainPage = new AppShell();
+		}
 	}
 }

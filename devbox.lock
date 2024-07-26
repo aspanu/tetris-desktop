@@ -1,51 +1,127 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "dotnet-sdk@latest": {
-      "last_modified": "2024-07-14T11:03:58Z",
-      "resolved": "github:NixOS/nixpkgs/aa247c0c90ecf4ae7a032c54fdc21b91ca274062#dotnet-sdk",
+    "android-tools@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#android-tools",
       "source": "devbox-search",
-      "version": "6.0.424",
+      "version": "35.0.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/kqz195xsy7xpc7mkj2gqbl7fbigba8kr-dotnet-sdk-6.0.424",
+              "path": "/nix/store/500mgsmj2z2vgdf02lvzm4pnri06pv0l-android-tools-35.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/kqz195xsy7xpc7mkj2gqbl7fbigba8kr-dotnet-sdk-6.0.424"
+          "store_path": "/nix/store/500mgsmj2z2vgdf02lvzm4pnri06pv0l-android-tools-35.0.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/dhs0102daj25z9a0wpyv5gky0jpd6ddh-dotnet-sdk-6.0.424",
+              "path": "/nix/store/xwy6jk70x4sj3mbadvd4rx82mqyhfy4d-android-tools-35.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/dhs0102daj25z9a0wpyv5gky0jpd6ddh-dotnet-sdk-6.0.424"
+          "store_path": "/nix/store/xwy6jk70x4sj3mbadvd4rx82mqyhfy4d-android-tools-35.0.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/khkipa1k8n8lra2q4lmj102njqk4k98r-dotnet-sdk-6.0.424",
+              "path": "/nix/store/r38xjilx7rd16z3lmnhz421clm8n62xl-android-tools-35.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/khkipa1k8n8lra2q4lmj102njqk4k98r-dotnet-sdk-6.0.424"
+          "store_path": "/nix/store/r38xjilx7rd16z3lmnhz421clm8n62xl-android-tools-35.0.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/g6i9n5wjqxhpz96w9spimp3ciigr7zx6-dotnet-sdk-6.0.424",
+              "path": "/nix/store/k2r8z4jd7nxnpv1b4q4l3dp0g746wk11-android-tools-35.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/g6i9n5wjqxhpz96w9spimp3ciigr7zx6-dotnet-sdk-6.0.424"
+          "store_path": "/nix/store/k2r8z4jd7nxnpv1b4q4l3dp0g746wk11-android-tools-35.0.1"
+        }
+      }
+    },
+    "dotnet-sdk_8@latest": {
+      "last_modified": "2024-07-14T11:03:58Z",
+      "resolved": "github:NixOS/nixpkgs/aa247c0c90ecf4ae7a032c54fdc21b91ca274062#dotnet-sdk_8",
+      "source": "devbox-search",
+      "version": "8.0.303",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3pw6kwfrwm5c6j52mqk28hw7qg51m5rf-dotnet-sdk-8.0.303",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3pw6kwfrwm5c6j52mqk28hw7qg51m5rf-dotnet-sdk-8.0.303"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jkncigyxffmbbg5s9ifg9irhldjhs245-dotnet-sdk-8.0.303",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jkncigyxffmbbg5s9ifg9irhldjhs245-dotnet-sdk-8.0.303"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/54hzlkvdsj086q8661ipq6h1xf6jkvm5-dotnet-sdk-8.0.303",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/54hzlkvdsj086q8661ipq6h1xf6jkvm5-dotnet-sdk-8.0.303"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m9dbas0s0a0lfgha03hb85cnb3r82bf2-dotnet-sdk-8.0.303",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m9dbas0s0a0lfgha03hb85cnb3r82bf2-dotnet-sdk-8.0.303"
+        }
+      }
+    },
+    "jdk21@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#jdk",
+      "source": "devbox-search",
+      "version": "21.0.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hxskzr9a3m0prpy9l41bnw3rmmahvdb6-zulu-ca-jdk-21.0.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hxskzr9a3m0prpy9l41bnw3rmmahvdb6-zulu-ca-jdk-21.0.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/naj6kwxwi4k20x5ngh6sms6n5a0il1x2-zulu-ca-jdk-21.0.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/naj6kwxwi4k20x5ngh6sms6n5a0il1x2-zulu-ca-jdk-21.0.2"
         }
       }
     }
