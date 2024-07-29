@@ -1,4 +1,8 @@
-﻿namespace TetrisDesktop;
+﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
+
+namespace TetrisDesktop;
 
 public static class MauiProgram
 {
@@ -19,6 +23,9 @@ public static class MauiProgram
 #endif
 			});
 
+#if DEBUG
+		builder.Logging.AddDebug();
+#endif
 		return builder.Build();
 	}
 }
